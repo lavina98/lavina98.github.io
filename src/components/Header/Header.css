@@ -1,0 +1,28 @@
+#nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #FFF0F5;
+    height: 50px;
+}
+
+ul { 
+   list-style-type: none;
+   display: inline;
+}
+li {
+    
+    padding: 8px;
+    float: right;
+}
+
+#logo {
+    float: left; 
+    
+}
+
+#img_logo {
+    height: 30px;
+    width: 40px;
+}
+
