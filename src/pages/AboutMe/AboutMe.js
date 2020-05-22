@@ -1,12 +1,13 @@
 import React from "react";
 import './AboutMe.css';
 import Header from "../../components/Header/Header";
-import bitmoji from "../../images/bitmoji.png"
-function AboutMe() {
-    return (
+import lg from "../../images/lg.png";
+class AboutMe extends React.Component {
+    render() {
+        return (
         <div className="me">
           <Header/>
-          <img src = {bitmoji} id="bitmoji"></img>
+          <img src = {lg} id="lg"></img>
           <div id = "content">
               <div id="name">
                   Hi! I'm Lavina Golani 
@@ -27,6 +28,8 @@ function AboutMe() {
            </div>
         </div>
     );
+    }
+    
 }
 
 export default  AboutMe;

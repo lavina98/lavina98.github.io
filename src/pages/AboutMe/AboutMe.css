@@ -1,6 +1,7 @@
 .me {
     
-    background-image: url('../../images/background.png') ;
+    /* background-image: url('../../images/background.png') ; */
+    background-color: white;
     background-repeat: no-repeat;
     background-size:cover;
     height: 100%;
@@ -8,11 +9,13 @@
     position: absolute;
 }
 
-#bitmoji{
+#lg{
     top:20%;
     left:8%;
     float:left;
     position: absolute;
+    height: 400px;
+    width: 400px;
 }
 
 
@@ -21,7 +24,7 @@
     left:40%;
     position: absolute;
     float: right ;
-    color: white;
+    color: black;
 }
 
 #name {

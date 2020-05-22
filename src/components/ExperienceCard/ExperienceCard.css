@@ -1,0 +1,10 @@
+.row1 {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-column-gap: 10px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
