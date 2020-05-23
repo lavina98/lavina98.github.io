@@ -7,19 +7,27 @@ class ExperienceCard extends React.Component {
   }
   render() {
     return (
-      <div>
-          <div className= "row1">
+      <div  className= "card">  
               <div className="column1">
-                <img src={this.props.image}></img>
+                  <img src={this.props.image}></img>
               </div>
               <div className="column2">
-                {this.props.heading}
+                  <div id="cardHeading" >
+                      <span id= "titleHeading">
+                            {this.props.heading}
+                      </span>
+                      <span id= "jobDuration">
+                            {this.props.timeperiod}
+                      </span>
+                  </div>
+                  <div id="jobContent">
+                      {this.props.description}
+                  </div>
+                  <div id="toolsAndTechnologies">
+                    Tools & Technologies - {this.props.toolsAndTechnologies}
+                  </div>
               </div>
-          </div>
-          <div className = "row2">
-              {this.props.description}
-          </div>
-      </div>
+       </div>
     );
   }
  

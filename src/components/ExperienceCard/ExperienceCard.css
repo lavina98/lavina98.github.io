@@ -1,10 +1,27 @@
-.row1 {
+.card {
     display: grid;
     grid-template-columns: 25% 75%;
     grid-column-gap: 10px;
+    height: 400px;
+    width: inherit;
 }
 
 img {
     max-width: 100%;
+    max-height: 200px;
     display: block;
 }
+
+#cardHeading {
+    display: inline;
+}
+
+#titleHeading {
+    float: left;
+    font-size: 1.5em;
+}
+#jobDuration {
+    float: right;
+    font-size: 1.5em;
+}
+
