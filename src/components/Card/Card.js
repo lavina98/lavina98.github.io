@@ -1,6 +1,6 @@
 import React from 'react';
-import './ExperienceCard.css';
-class ExperienceCard extends React.Component {
+import './Card.css';
+class Card extends React.Component {
 
   constructor(props) {
     super(props);
@@ -33,4 +33,4 @@ class ExperienceCard extends React.Component {
  
 }
 
-export default ExperienceCard;
+export default Card;

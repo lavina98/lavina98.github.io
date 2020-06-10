@@ -7,8 +7,8 @@ class Header extends React.Component {
             <div id="nav">
                 <ul>
                     <li id="logo" ><img id= "img_logo" src={logo}></img></li>
-                    <li>Contact Me</li>
-                    <li>Education & Skills</li>
+                    <li>Achievements</li>
+                    <li>Education & Certifications</li>
                     <li>Projects</li>
                     <li>Experience</li>
                     <li>About Me</li>
