@@ -24,7 +24,7 @@ class Card extends React.Component {
                       {this.props.description}
                   </div>
                   <div id="toolsAndTechnologies">
-                    Tools & Technologies - {this.props.toolsAndTechnologies}
+                      {this.props.toolsAndTechnologies}
                   </div>
               </div>
        </div>
