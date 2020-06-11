@@ -1,5 +1,6 @@
 import React from "react";
 import  AchievementCard from "../../components/AchievementCard/AchievementCard";
+import achievement_image from "../../images/achievements.png";
 class Achievement extends React.Component {
 
     constructor(props){
@@ -9,6 +10,7 @@ class Achievement extends React.Component {
     render() {
         return (
             <div>
+                <img src={achievement_image}></img>
                 <AchievementCard heading=" Won the Project Exhibition competition for final year Project"
                                  subheading=" Won the project exhibition for our Project - Distributed caching using Novel timestamp Method in our Department">
                 </AchievementCard>

@@ -1,27 +1,28 @@
 .me {
-    
-    
     height: 100%;
     width: 100%;
     position: absolute;
+    
 }
 
 #lg{
-    top:20%;
-    left:8%;
-    float:left;
+   
+    left:10%;
+    float: left;
     position: absolute;
-    height: 400px;
-    width: 400px;
+    max-height: 400px;
+    max-width: 30%;
+    
 }
 
 
 #content {
-    top:30%;
-    left:40%;
-    position: absolute;
+    
+    position: absolute; 
     float: right ;
+    right: 5%;
     color: black;
+    max-width: 50%;
 }
 
 #name {
@@ -44,14 +45,19 @@
 }
 
 li {
-    display: inline;
-    
+    /* display: inline; */
 }
 
 .social {
     height: 40px;
     width: 40px;
     padding: 10px;
-    display: block;
+    /* display: block; */
 }
 
+.contact {
+    position: relative;
+    width: 10%;
+    left:0%;
+    align-items: center;
+}

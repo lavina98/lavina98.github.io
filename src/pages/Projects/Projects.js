@@ -8,13 +8,14 @@ import newsApp from "../../images/news_app.png";
 import portfolioManagement from "../../images/portfolio_management.png";
 import collegeActivity from "../../images/college_activity.png";
 import sudokuSolver from "../../images/sudoku_solver.png";
-
+import projects_image from "../../images/projects.png";
 class Projects extends React.Component {
 
     
     render() {
         return (
         <div>
+            <img src={projects_image}></img>
             <VerticalCard 
             image = {distributedSystem}
             heading ="Novel Timestamp based caching mechanism for distributed systems"

@@ -3,10 +3,12 @@ import './EducationAndCertification.css';
 import Card from '../../components/Card/Card';
 import VerticalCard from '../../components/VerticalCard/VerticalCard';
 import spit from '../../images/spit.png';
+import education from '../../images/education.png';
 class EducationAndCertification extends React.Component {
     render() {
         return (
             <div>
+                <img src={education} ></img>
                 Education
                 <Card 
                 image = {spit}
