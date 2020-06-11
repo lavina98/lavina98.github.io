@@ -1,12 +1,19 @@
 import React from "react";
 import './AboutMe.css';
-import Header from "../../components/Header/Header";
 import lg from "../../images/lg.png";
+import gmail from "../../images/gmail.png";
+import github from "../../images/github.png";
+import linkedIn from "../../images/linkedIn.png";
+import medium from "../../images/medium.png";
 class AboutMe extends React.Component {
+
+    constructor(props) {
+        super(props);
+    }
+
     render() {
         return (
         <div className="me">
-          <Header/>
           <img src = {lg} id="lg"></img>
           <div id = "content">
               <div id="name">
@@ -26,9 +33,34 @@ class AboutMe extends React.Component {
                   places while not actually being there. I am excited to contribute to our future.
               </div>
            </div>
+           <div className="contact">
+                <ul id="social_media">
+                    <li>
+                        <a href="https://github.com/lavina98" target="_blank">
+                            <img src={github} className="social"/>   
+                        </a>  
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/lavina-golani-01887414b/"target="_blank" >
+                             <img src={linkedIn} className="social"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="mailto: luvina1009@gmail.com " target="_blank">
+                            <img src={gmail} className="social"/>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://medium.com/@luvina1009" target="_blank">
+                            <img src={medium} className="social"/>
+                        </a>
+                    </li>
+                 </ul>
+            </div>
         </div>
     );
-    }
+    
+}
     
 }
 

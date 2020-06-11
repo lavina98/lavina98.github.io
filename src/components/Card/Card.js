@@ -9,7 +9,7 @@ class Card extends React.Component {
     return (
       <div  className= "card">  
               <div className="column1">
-                  <img src={this.props.image}></img>
+                  <img src={this.props.image} className="card_img"></img>
               </div>
               <div className="column2">
                   <div id="cardHeading" >

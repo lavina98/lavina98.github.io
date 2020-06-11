@@ -7,7 +7,7 @@ import microsoft from '../../images/microsoft.png';
 class Experience extends React.Component {
     render() {
         return (
-            <div>
+            <div class="experience">
             <Card 
                 image = {spit}
                 heading = "Teaching Assistant"

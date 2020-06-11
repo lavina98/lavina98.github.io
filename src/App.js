@@ -1,18 +1,58 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from 'react-router-dom';
 import './App.css';
-import Header from './components/Header/Header';
+import logo from './images/logo.png';
 import AboutMe from './pages/AboutMe/AboutMe';
-import ContactMe from './pages/ContactMe/ContactMe';
 import  Experience from './pages/Experience/Experience';
 import Projects from './pages/Projects/Projects';
 import EducationAndCertification from './pages/EducationAndCertification/EducationAndCertification';
+import Achievement from './pages/Achievement/Achievement';
 class App extends React.Component {
   render() {
     return (
-      <div className="App">
-          
-        <EducationAndCertification/>
-      </div>
+      <Router>
+        <div class="main" >
+            <div id="nav">
+                  <ul>
+                      <li id="logo" ><img id= "img_logo" src={logo}></img></li>
+                      <li>
+                        <Link to="/achievements">Achievements</Link>
+                      </li>
+                      <li>
+                        <Link to="/educationandcertification">Education & Certifications</Link>
+                      </li>
+                      <li>
+                        <Link to="/projects">Projects</Link>
+                      </li>
+                      <li>
+                        <Link to="/experience">Experience</Link>
+                      </li>
+                      <li>
+                        <Link  to="/">About Me</Link>
+                      </li>
+                  </ul>
+             </div>
+             <div class="page_content">
+                <Switch>
+                      <Route path="/experience" component={Experience}>
+                      </Route>
+                      <Route path="/projects" component={Projects}>
+                      </Route>
+                      <Route path="/educationandcertification" component={EducationAndCertification}>   
+                      </Route>
+                      <Route path="/achievements" component={Achievement}>
+                      </Route>
+                      <Route  path="/" component={AboutMe}>
+                      </Route>
+                </Switch>
+             </div>
+        </div>
+      </Router>
     );
   }
   

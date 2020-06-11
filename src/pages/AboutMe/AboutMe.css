@@ -1,9 +1,6 @@
 .me {
     
-    /* background-image: url('../../images/background.png') ; */
-    background-color: white;
-    background-repeat: no-repeat;
-    background-size:cover;
+    
     height: 100%;
     width: 100%;
     position: absolute;
@@ -45,3 +42,16 @@
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 100px;
 }
+
+li {
+    display: inline;
+    
+}
+
+.social {
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    display: block;
+}
+
