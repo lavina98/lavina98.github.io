@@ -1,0 +1,20 @@
+.projects_intro {
+    display: flex;
+}
+
+.projects_img{
+    float: left;
+    max-width: 40%;
+}
+
+.projects_content {
+    max-width: 60%;
+}
+
+.project_cards {
+    display: flex;
+     flex-direction: row;
+    /* flex-wrap: wrap; */ 
+    width: 100%;
+    display: -webkit-flex; 
+}

@@ -1,4 +1,29 @@
 .verticalCard {
     max-width: 400px;
- 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    border-radius: 10px;
+    border: 5px solid #382171;
+    margin: 20px;
+    padding: 10px;
+    align-content: center;
 } 
+
+
+.verticalCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+
+.vertical_card_image {
+    max-width: 400px;
+    max-height: 400px;
+    
+}
+
+.vertical_card_button {
+    background-color:  #FFCCEF;
+    border: 1px solid #FFCCEF;
+    border-radius: 2px;
+    height: 30px;
+    width: 30x;
+}
