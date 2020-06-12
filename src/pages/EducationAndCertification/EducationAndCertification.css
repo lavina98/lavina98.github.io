@@ -5,6 +5,8 @@
 .edu_image {
     max-width: 40%;
     float: left;
+    max-width: 400px;
+    max-height: 400px;
 }
 
 .edu_content {

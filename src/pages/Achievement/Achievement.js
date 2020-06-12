@@ -1,6 +1,7 @@
 import React from "react";
 import  AchievementCard from "../../components/AchievementCard/AchievementCard";
 import achievement_image from "../../images/achievements.png";
+import "./Achievement.css";
 class Achievement extends React.Component {
 
     constructor(props){

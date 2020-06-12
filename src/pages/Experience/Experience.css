@@ -9,6 +9,8 @@
 .exp_img {
     max-width: 40% ;
     float: left;
+    max-width: 400px;
+    max-height: 400px;
 }
 
 .experience_content {

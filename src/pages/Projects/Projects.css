@@ -5,6 +5,8 @@
 .projects_img{
     float: left;
     max-width: 40%;
+    max-width: 400px;
+    max-height: 400px;
 }
 
 .projects_content {
