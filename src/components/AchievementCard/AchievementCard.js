@@ -8,7 +8,7 @@ class AchievementCard extends React.Component {
 
   render() {
       return (
-        <div>
+        <div className="achievement_card">
             <h2>{this.props.heading}</h2>
             {this.props.subheading}
         </div>

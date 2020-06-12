@@ -13,8 +13,12 @@
 
 .project_cards {
     display: flex;
-     flex-direction: row;
-    /* flex-wrap: wrap; */ 
+     /* flex-direction: row;
+     flex-wrap: wrap; 
     width: 100%;
-    display: -webkit-flex; 
+    display: -webkit-flex;  */
+}
+
+.project_details {
+    display: block;
 }

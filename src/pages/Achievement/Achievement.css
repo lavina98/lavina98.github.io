@@ -1,0 +1,23 @@
+.achievement_intro {
+    display: flex;
+}
+
+.ach_img {
+    max-width: 40%;
+    float: left;
+    max-width: 100px;
+    max-height: 100px;
+    width: 100%;
+}
+
+.achievement_content{
+    max-width: 60%;
+}
+
+.achievement_cards {
+    display: block;
+}
+
+.achievement_details{
+    width: 100%;
+}

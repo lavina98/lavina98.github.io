@@ -14,7 +14,7 @@ class Projects extends React.Component {
     
     render() {
         return (
-        <div>
+        <div className="projects_details">
             <div className="projects_intro">
                 <img src={projects_image} className="projects_img"></img>
                 <div className="projects_content">

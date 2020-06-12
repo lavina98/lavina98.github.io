@@ -1,0 +1,24 @@
+.edu_intro {
+    display: flex;
+}
+
+.edu_image {
+    max-width: 40%;
+    float: left;
+}
+
+.edu_content {
+    max-width: 60%;
+}
+
+.certification {
+    display: block;
+    float: left;
+}
+
+.cert_card_container {
+    display: flex;
+}
+.edu_and_cert {
+    max-width: 100%;
+}
