@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a6572891.chunk.css",
+    "main.js": "/static/js/main.ad5e87b1.chunk.js",
+    "main.js.map": "/static/js/main.ad5e87b1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c56b8d88.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c56b8d88.js.map",
+    "static/js/2.85639e42.chunk.js": "/static/js/2.85639e42.chunk.js",
+    "static/js/2.85639e42.chunk.js.map": "/static/js/2.85639e42.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.085cfa299dc8e193f470378037c89e29.js": "/precache-manifest.085cfa299dc8e193f470378037c89e29.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.a6572891.chunk.css.map": "/static/css/main.a6572891.chunk.css.map",
+    "static/js/2.85639e42.chunk.js.LICENSE.txt": "/static/js/2.85639e42.chunk.js.LICENSE.txt",
+    "static/media/achievements.png": "/static/media/achievements.cf88a9f2.png",
+    "static/media/backend.png": "/static/media/backend.9074c8fc.png",
+    "static/media/biometric_authentication.png": "/static/media/biometric_authentication.82e15c58.png",
+    "static/media/college_activity.png": "/static/media/college_activity.b0dc4460.png",
+    "static/media/cybersecurity.png": "/static/media/cybersecurity.18e03f8e.png",
+    "static/media/data_science.png": "/static/media/data_science.00167fa5.png",
+    "static/media/diabetes_analysis.png": "/static/media/diabetes_analysis.aca3cacc.png",
+    "static/media/distributed_cache.png": "/static/media/distributed_cache.53c213cd.png",
+    "static/media/education.png": "/static/media/education.9a9952d7.png",
+    "static/media/educational_portal.png": "/static/media/educational_portal.7a804cbf.png",
+    "static/media/experience.png": "/static/media/experience.ec1936a1.png",
+    "static/media/frontend.png": "/static/media/frontend.7a26777b.png",
+    "static/media/lg.png": "/static/media/lg.3aaefcd1.png",
+    "static/media/logo.png": "/static/media/logo.3ca0d846.png",
+    "static/media/machine_learning.png": "/static/media/machine_learning.ba0affa7.png",
+    "static/media/news_app.png": "/static/media/news_app.9ef909ce.png",
+    "static/media/portfolio_management.png": "/static/media/portfolio_management.67a076d1.png",
+    "static/media/projects.png": "/static/media/projects.dc55a68a.png",
+    "static/media/spit.png": "/static/media/spit.4d78bc8a.png",
+    "static/media/sudoku_solver.png": "/static/media/sudoku_solver.72c398c7.png",
+    "static/media/uxd.png": "/static/media/uxd.0fad4a67.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c56b8d88.js",
+    "static/js/2.85639e42.chunk.js",
+    "static/css/main.a6572891.chunk.css",
+    "static/js/main.ad5e87b1.chunk.js"
+  ]
+}
