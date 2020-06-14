@@ -16,28 +16,32 @@ class App extends React.Component {
   render() {
     return (
       <Router>
-        <div class="main" >
+        <div className="main" >
             <div id="nav">
-                  <ul>
-                      <li id="logo" ><img id= "img_logo" src={logo}></img></li>
-                      <li>
-                        <Link to="/achievements">Achievements</Link>
-                      </li>
-                      <li>
-                        <Link to="/educationandcertification">Education & Certifications</Link>
-                      </li>
-                      <li>
-                        <Link to="/projects">Projects</Link>
-                      </li>
-                      <li>
-                        <Link to="/experience">Experience</Link>
-                      </li>
-                      <li>
-                        <Link  to="/">About Me</Link>
-                      </li>
-                  </ul>
+                  <div className="nav_item">
+                      <img id= "img_logo" src={logo}></img>
+                  </div>
+                  <div className="nav_item">
+                    <ul className="nav_list">
+                        <li>
+                          <Link  to="/">About Me</Link>
+                        </li>
+                        <li>
+                          <Link to="/experience">Experience</Link>
+                        </li>
+                        <li>
+                          <Link to="/projects">Projects</Link>
+                        </li>
+                        <li>
+                          <Link to="/educationandcertification">Education & Certifications</Link>
+                        </li>
+                        <li>
+                          <Link to="/achievements">Achievements</Link>
+                        </li>
+                    </ul>
+                  </div>
              </div>
-             <div class="page_content">
+             <div className="page_content">
                 <Switch>
                       <Route path="/experience" component={Experience}>
                       </Route>

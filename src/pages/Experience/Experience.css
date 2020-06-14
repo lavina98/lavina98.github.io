@@ -3,25 +3,40 @@
 }
 
 .experience_intro {
-    display: inline;
+    display: flex;
+    /* width: 80%; */
+    align-items: center;
+    justify-content: space-around;
 }
+
+@media  (max-width:600px) {
+    .experience_intro{
+        flex-direction: column;
+    }
+  }
 
 .exp_img {
-    max-width: 40% ;
-    float: left;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 30%;
 }
+
+@media  (max-width:600px) {
+    .exp_img{
+        max-width: 100%;
+    }
+  }
 
 .experience_content {
-    max-width: 60%;
-    right: 10%;
-
     text-align: center;
-    size: 2em;
+    width: 50%;
 }
 
+@media  (max-width:600px) {
+    .experience_content{
+        width: 80%;
+    }
+}
 .experience_cards {
-    display: block;
+    display: flex;
     align-items: center;
+    flex-direction: column;
 }

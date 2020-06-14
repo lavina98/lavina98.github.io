@@ -1,26 +1,43 @@
 .projects_intro {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media  (max-width:600px) {
+    .projects_intro{
+        flex-direction: column;
+    }
 }
 
 .projects_img{
-    float: left;
-    max-width: 40%;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 30%; 
+}
+
+@media  (max-width:600px) {
+    .projects_img{
+        max-width: 100%;
+    }
 }
 
 .projects_content {
-    max-width: 60%;
+    text-align: center;
+    width: 50%;
 }
 
-.project_cards {
+@media  (max-width:600px) {
+    .projects_content{
+        width: 80%;
+    }
+}
+
+.projects_cards {
     display: flex;
-     /* flex-direction: row;
-     flex-wrap: wrap; 
-    width: 100%;
-    display: -webkit-flex;  */
+    flex-wrap: wrap;
+    justify-content: center;
+    
 }
 
-.project_details {
-    display: block;
+.projects_details {
+    max-width: 100%;
 }

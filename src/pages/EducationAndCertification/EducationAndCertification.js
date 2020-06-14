@@ -21,6 +21,8 @@ class EducationAndCertification extends React.Component {
                     image = {spit}
                     heading = "BE in Information Technology"
                     timeperiod ="Aug 2016 - Present"
+                    organisation ="Sardar Patel Institute of Technology"
+                    location="Mumbai, Maharashtra"
                     description = "Completing my course of bachelor in engineering in Information Technology. Studied core computer subjects and data science. "
                     toolsAndTechnologies ="Studied subjects like OOP, Data Structures & Algorithms, OS & Networking, Web Development & Database Management, Cybersecurity, Machine Learning, Data Science, Data Mining, Software Engineering"
                     />

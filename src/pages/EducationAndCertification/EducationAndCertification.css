@@ -1,18 +1,40 @@
 .edu_intro {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media  (max-width:600px) {
+    .edu_intro{
+        flex-direction: column;
+    }
 }
 
 .edu_image {
-    max-width: 40%;
-    float: left;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 30%; 
+}
+
+@media  (max-width:600px) {
+    .edu_image{
+        max-width: 100%;
+    }
 }
 
 .edu_content {
-    max-width: 60%;
+    text-align: center;
+    width: 50%;
 }
 
+@media  (max-width:600px) {
+    .edu_content{
+        width: 80%;
+    }
+}
+
+
+.edu {
+    display: block;
+}
 .certification {
     display: block;
     float: left;

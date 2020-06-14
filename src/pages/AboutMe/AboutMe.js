@@ -38,7 +38,9 @@ class AboutMe extends React.Component {
                     </li>
                  </ul>
           </div>
-          <img src = {lg} id="lg"></img>
+          <div className="lg" >
+                <img src = {lg} className="lg_image" ></img>
+          </div>
           <div id = "content">
               <div id="name">
                   Hi! I'm Lavina Golani 

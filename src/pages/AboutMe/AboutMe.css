@@ -1,28 +1,22 @@
 .me {
     height: 100%;
     width: 100%;
-    position: absolute;
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#lg{
-   
-    left:10%;
-    float: left;
-    position: absolute;
+.lg_image{
+ 
     max-height: 400px;
-    max-width: 30%;
+    
     
 }
 
 
 #content {
     
-    position: absolute; 
-    float: right ;
-    right: 5%;
     color: black;
-    max-width: 50%;
 }
 
 #name {
@@ -44,20 +38,20 @@
     padding-top: 100px;
 }
 
-li {
-    /* display: inline; */
-}
+
 
 .social {
     height: 40px;
     width: 40px;
     padding: 10px;
-    /* display: block; */
 }
 
-.contact {
-    position: relative;
-    width: 10%;
-    left:0%;
-    align-items: center;
+#social_media {
+    list-style: none;
+}
+
+@media  screen and (max-width: 600px) {
+    .me {
+        flex-direction: column;
+    }
 }

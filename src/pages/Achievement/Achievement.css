@@ -1,17 +1,32 @@
 .achievement_intro {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
+@media  (max-width:600px) {
+    .achievement_intro{
+        flex-direction: column;
+    }
+}
 .ach_img {
-    max-width: 40%;
-    float: left;
-    max-width: 400px;
-    max-height: 400px;
-    width: 100%;
+    max-width: 30%; 
+}
+
+@media  (max-width:600px) {
+    .ach_img{
+        max-width: 100%;
+    }
 }
 
 .achievement_content{
-    max-width: 60%;
+    text-align: center;
+    width: 50%;
+}
+@media  (max-width:600px) {
+    .achievement_content{
+        width: 80%;
+    }
 }
 
 .achievement_cards {
