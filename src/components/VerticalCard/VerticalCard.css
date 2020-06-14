@@ -29,12 +29,23 @@
 
 .vertical_card_button {
     background-color:  #FFCCEF;
-    border: 1px solid #FFCCEF;
-    border-radius: 2px;
-    height: 30px;
-    width: 30x;
+    border: 0.1em solid #FFCCEF;
+    border-radius: 0.5em;
+    padding: 1.5em;
 }
 
 .div_vertical_card {
     align-self: center;
+}
+
+.vertical_card_head{
+    font-weight: 550;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+
+.vertical_card_subhead{
+    font-weight: 550;
+    font-size: 1rem;
 }

@@ -16,10 +16,10 @@ class Skill extends React.Component {
                 <img src={this.props.skill_image}></img>
             </div>
             <div className="skill_languages">
-                {this.props.languages}
+                <span className="lf">Languages: </span>{this.props.languages}
             </div>
             <div className="skill_frameworks">
-                {this.props.frameworks_and_libraries}
+            <span className="lf">Frameworks: </span>{this.props.frameworks_and_libraries}
             </div>
         </div>
         );

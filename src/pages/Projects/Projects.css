@@ -23,6 +23,7 @@
 .projects_content {
     text-align: center;
     width: 50%;
+    font-weight: 600;
 }
 
 @media  (max-width:600px) {

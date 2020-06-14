@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 200px;
     height: 300px;
-    align-items: center;
+    /* align-items: center; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
     transition: 0.3s;
     border-radius: 1em;
@@ -39,10 +39,19 @@
 }
 
 
-/* .skill_head {
-
+.skill_head {
+    font-weight: 600;
+    text-align: center;
 }
 
-.skill_content {
+.skill_languages {
+    margin-top: 1em;
+}
 
-} */
+.skill_frameworks {
+    margin-top: 1em;
+}
+
+.lf {
+    font-weight: 550;
+}

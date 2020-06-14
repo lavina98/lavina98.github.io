@@ -51,20 +51,19 @@ class AboutMe extends React.Component {
                 </div>
                 <div id = "content">
                 <div id="name">
-                    Hi! I'm Lavina Golani 
+                    <p>Hi! I'm Lavina Golani. </p>
                 </div>
                 <div id="details">
-                    Final year student in Sardar Patel Institute of technology.
-                    <br/>
-                    Full Stack Developer, Machine Learning & Data Science Engineer.
+                    <p>Final year student in Sardar Patel Institute of technology.</p>
+                    <p>Full Stack Developer, Machine Learning & Data Science Engineer.</p>
                 
                 </div>
                 <div id ="motivation">
-                    I am extremely passionate about technology. Technology helps empower every 
+                    <p>I am extremely passionate about technology. Technology helps empower every 
                     individual. Today technology is used in every field right from healthcare to
                     entertainment. The future is going to be amazing as well; ranging from ingestable 
                     pills to track your vitals to virtual reality techniques which will take us different 
-                    places while not actually being there. I am excited to contribute to our future.
+                    places while not actually being there. I am excited to contribute to our future.</p>
                 </div>
             </div>
             </div>
@@ -98,14 +97,14 @@ class AboutMe extends React.Component {
                     <Skill
                         skill_image={uxd}
                         heading="User Experience and Design"
-                        languages=""
+                        languages="HTML, CSS"
                         frameworks_and_libraries ="Figma"
                     />
                     <Skill
                         skill_image={cybersecurity}
                         heading="CyberSecurity"
-                        languages="Linux, Kali Linux"
-                        frameworks_and_libraries =""
+                        languages="Shell Script"
+                        frameworks_and_libraries ="Linux, Kali Linux"
                     />
 
             </div>

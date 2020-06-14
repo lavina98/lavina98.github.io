@@ -49,24 +49,6 @@ li {
 
 
 
-a:link {
-  text-decoration: none;
-  color: black;
-}
 
-a:visited {
-  text-decoration: none;
-  color: black;
-}
-
-a:active {
-  text-decoration: underline;
-  color: red;
-}
-
-a:hover {
-  text-decoration: underline;
-  color:  #382171;
-}
 
 

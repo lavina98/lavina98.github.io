@@ -12,8 +12,8 @@ class VerticalCard extends React.Component {
           <div>
               <img src={this.props.image} className="vertical_card_image"></img>
           </div>
-          <h3>{this.props.heading}</h3>
-          <h4>{this.props.subheading}</h4>
+          <div className="vertical_card_head"><p>{this.props.heading}</p></div>
+          <div className="vertical_card_subhead"><p>{this.props.subheading}</p></div>
           <div>
               <p>{this.props.content}</p>
           </div>

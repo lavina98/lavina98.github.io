@@ -9,6 +9,7 @@ import portfolioManagement from "../../images/portfolio_management.png";
 import collegeActivity from "../../images/college_activity.png";
 import sudokuSolver from "../../images/sudoku_solver.png";
 import projects_image from "../../images/projects.png";
+import diabetes_analysis from "../../images/diabetes_analysis.png"
 class Projects extends React.Component {
 
     
@@ -72,6 +73,14 @@ class Projects extends React.Component {
                 link ="https://github.com/lavina98/SudoCode"
                 buttonContent="View Project"
                 />
+                 <VerticalCard 
+                image = {diabetes_analysis}
+                heading ="Analysis and Predictions on Diabetes Dataset"
+                subheading ="Technologies used- Python, Numpy, Pandas, Seaborn, sklearn, R"
+                content = "Gained insights from the dibetes dataset, drew visualizations . Also used prediction models on the dataset"
+                link ="https://github.com/lavina98/AnalysisOnDiabetesDataset"
+                buttonContent="View Project"
+                />
                 <VerticalCard 
                 image = {sudokuSolver}
                 heading ="SudoKu Solver"
@@ -80,6 +89,7 @@ class Projects extends React.Component {
                 link ="https://github.com/lavina98/SudokuSolver"
                 buttonContent="View Project"
                 />
+                
             </div>
         </div>
         );
