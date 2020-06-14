@@ -1,18 +1,30 @@
 .me {
-    height: 100%;
-    width: 100%;
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.lg_image{
- 
-    max-height: 400px;
-    
-    
+@media (max-width:600px) {
+    .me {
+        flex-direction: column;
+        max-width: 100%;
+    }
 }
 
+.lg_image{
+ 
+    max-width: 340px;
+}
+
+@media (max-width:600px) {
+    .lg_image{
+        max-width: 80%;
+        margin: auto;
+        display: block;
+        align-self:center;
+    }
+}
 
 #content {
     
@@ -48,10 +60,43 @@
 
 #social_media {
     list-style: none;
+    display: flex;
+    flex-direction: column;
+    
 }
 
-@media  screen and (max-width: 600px) {
-    .me {
-        flex-direction: column;
+@media   (max-width: 600px) { 
+    #social_media {
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 100%;
+        /* align-items: center; */
+    }
+    #social_media li {
+       width: 40%;
+        
     }
 }
+
+
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    align-items: center;
+    justify-content: center;
+    /* align-items: center ; */
+    
+    margin: 0 auto;
+}
+
+.about_me {
+    max-width: 100%;
+}
+
+.skill_content  h2{
+   align-self: center;
+   text-align: center;
+}
+

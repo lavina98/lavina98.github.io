@@ -34,7 +34,10 @@
 
 .edu {
     display: block;
+    max-width: 100%;
 }
+
+
 .certification {
     display: block;
     float: left;
@@ -43,6 +46,17 @@
 .cert_card_container {
     display: flex;
 }
+
+@media  (max-width:600px) {
+    .cert_card_container{
+        flex-direction: column;
+    }
+}
 .edu_and_cert {
+    max-width: 100%;
+}
+
+.edu_cards {
+    display: flex;
     max-width: 100%;
 }

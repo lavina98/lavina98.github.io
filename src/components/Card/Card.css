@@ -4,14 +4,15 @@
     display:flex;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
     transition: 0.3s;
-    border-radius: 10px;
-    border: 5px solid #382171;
-    margin: 20px;
+    border-radius: 1em;
+    border: 0.3em solid #382171;
+    margin: 1.5em;
     padding: 2em;
 }
 @media (max-width:600px) {
     .card {
         flex-direction: column;
+        max-width: 80%;
     }
 }
 

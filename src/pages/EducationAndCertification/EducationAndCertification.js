@@ -17,15 +17,17 @@ class EducationAndCertification extends React.Component {
                 </div>
                 <div className="edu">
                     <h2>Education</h2>
-                    <Card 
-                    image = {spit}
-                    heading = "BE in Information Technology"
-                    timeperiod ="Aug 2016 - Present"
-                    organisation ="Sardar Patel Institute of Technology"
-                    location="Mumbai, Maharashtra"
-                    description = "Completing my course of bachelor in engineering in Information Technology. Studied core computer subjects and data science. "
-                    toolsAndTechnologies ="Studied subjects like OOP, Data Structures & Algorithms, OS & Networking, Web Development & Database Management, Cybersecurity, Machine Learning, Data Science, Data Mining, Software Engineering"
-                    />
+                    <div className="edu_cards">
+                        <Card 
+                        image = {spit}
+                        heading = "BE in Information Technology"
+                        timeperiod ="Aug 2016 - Present"
+                        organisation ="Sardar Patel Institute of Technology"
+                        location="Mumbai, Maharashtra"
+                        description = "Completing my course of bachelor in engineering in Information Technology. Studied core computer subjects and data science. "
+                        toolsAndTechnologies ="Studied subjects like OOP, Data Structures & Algorithms, OS & Networking, Web Development & Database Management, Cybersecurity, Machine Learning, Data Science, Data Mining, Software Engineering"
+                        />
+                    </div>
                 </div>
                 <div className="certification">
                     <h2>Certification </h2>
