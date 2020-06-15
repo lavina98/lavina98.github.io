@@ -59,11 +59,7 @@ class AboutMe extends React.Component {
                 
                 </div>
                 <div id ="motivation">
-                    <p>I am extremely passionate about technology. Technology helps empower every 
-                    individual. Today technology is used in every field right from healthcare to
-                    entertainment. The future is going to be amazing as well; ranging from ingestable 
-                    pills to track your vitals to virtual reality techniques which will take us different 
-                    places while not actually being there. I am excited to contribute to our future.</p>
+                    <p>I am extremely passionate about technology. Technology helps empower every individual. Today technology is used in every field right from healthcare to entertainment. The future is going to be amazing as well; ranging from ingestible pills to track your vitals to virtual reality techniques which will take us to different places while not being there. I am excited to contribute to our future.</p>
                 </div>
             </div>
             </div>

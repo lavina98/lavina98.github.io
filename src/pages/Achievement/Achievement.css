@@ -32,6 +32,8 @@
 
 .achievement_cards {
     display: block;
+    max-width: 80%;
+    margin: auto;
 }
 
 .achievement_details{

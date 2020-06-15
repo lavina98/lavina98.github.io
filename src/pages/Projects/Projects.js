@@ -19,7 +19,7 @@ class Projects extends React.Component {
             <div className="projects_intro">
                 <img src={projects_image} className="projects_img"></img>
                 <div className="projects_content">
-                    Projects that I made keeping the user interest in mind. These projects thought me about the various steps
+                    Projects that I made keeping the user interest in mind. These projects taught me about the various steps
                     involved in creating any product - design thinking, making documentation , creating UML diagrams, coding and testing.
 
                 </div>
@@ -29,7 +29,7 @@ class Projects extends React.Component {
                 image = {distributedSystem}
                 heading ="Novel Timestamp based caching mechanism for distributed systems"
                 subheading ="Technologies used- NodeJs, Javascript, Azure, Redis, Scalegrid"
-                content = "Developed a hybrid caching mechanism that uses both local and global cache to increase the retrival speed, give latest data and reduce latency."
+                content = "Developed a hybrid caching mechanism that uses both local and global cache to increase the retrieval speed, give thelatest data and reduce latency."
                 link ="https://github.com/violetviolinist/nicecache"
                 buttonContent="View Project"
                 />
@@ -37,7 +37,7 @@ class Projects extends React.Component {
                 image = {educationalPortal}
                 heading ="Educational Portal for Students of 11th and 12th"
                 subheading ="Technologies used- Angular.js, Node.js, Python, Tensorflow"
-                content = "Developed an education portal with a chatbot for students of 11th and 12th. Scrapped data from the NCERT textbook to give students relevant anwer to their doubts. Th portal also helped students with study material and giving tests."
+                content = "Developed an education portal with a chatbot for students of 11th and 12th. Scrapped data from the NCERT textbook to give students relevant answer to their doubts. The portal also helped students with study material and giving tests."
                 link ="https://github.com/lavina98/educational-chatbot"
                 buttonContent="View Project"
                 />
@@ -53,7 +53,7 @@ class Projects extends React.Component {
                 image = {newsApp}
                 heading ="News App"
                 subheading ="Technologies used- Angular.js, Node.js, Python, Google News API"
-                content = "Developed a news app to give user authentic and customized data"
+                content = "Developed a news app to give user authentic and customized news from different trusted sources."
                 link ="https://github.com/lavina98/hackathon"
                 buttonContent="View Project"
                 />
@@ -61,7 +61,7 @@ class Projects extends React.Component {
                 image = {portfolioManagement}
                 heading ="Portfolio Management App"
                 subheading ="Technologies used- Angular.js, Node.js, Alpha Vantage API"
-                content = "Developed a Portfolio Management Website for user to  to manage  stocks, see prices of shares , manage transactions and calculate networth"
+                content = "Developed a Portfolio Management Website for a user to manage  stocks, see prices of shares, manage transactions and calculate net worth."
                 link ="https://github.com/lavina98/Portfolio-Management-Backend"
                 buttonContent="View Project"
                 />
@@ -77,7 +77,7 @@ class Projects extends React.Component {
                 image = {diabetes_analysis}
                 heading ="Analysis and Predictions on Diabetes Dataset"
                 subheading ="Technologies used- Python, Numpy, Pandas, Seaborn, sklearn, R"
-                content = "Gained insights from the dibetes dataset, drew visualizations . Also used prediction models on the dataset"
+                content = "Gained insights from the diabetes dataset, drew visualizations. Also developed prediction models on the dataset."
                 link ="https://github.com/lavina98/AnalysisOnDiabetesDataset"
                 buttonContent="View Project"
                 />

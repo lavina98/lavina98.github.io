@@ -13,7 +13,7 @@ class Experience extends React.Component {
                 <div className="experience_intro">
                     <img src={experience_image} className="exp_img"></img>
                     <div className="experience_content">
-                        My internships , work experience in the industry which helped me understand the business
+                        My internships, work experience in the industry which helped me understand the business
                         and apply the various computer science concepts I earned.
                     </div>
                 </div>
@@ -24,7 +24,7 @@ class Experience extends React.Component {
                         timeperiod ="Jul 2019 - Nov 2019"
                         organisation ="Sardar Patel Institute of Technology"
                         location="Mumbai, Maharashtra"
-                        description = "Teaching assistant for the subject of Object Orient Programming.Helped students understand the various OOP concepts. Explained the class diagrams and their breakdown to students."
+                        description = "Teaching assistant for the subject of Object Orient Programming. Helped students understand the various OOP concepts. Explained the class diagrams and their breakdown to students."
                         toolsAndTechnologies =" Tools & Technologies - Java, Eclipse "
                     />
                     <br/>
@@ -34,7 +34,7 @@ class Experience extends React.Component {
                         timeperiod ="May 2019- Jul 2019"
                         organisation ="Microsoft IDC"
                         location="Hyderabad, Telangana"
-                        description = "Interned in the Dynamics CRM sales forcasting team . I developed a dashboard which showed the forecast pipleline management.The project helped improving the overall efficieny of a sales person."
+                        description = "Interned in the Dynamics CRM sales forecasting team. I developed a dashboard which showed the forecast pipeline management. The project helped to improve the overall efficiency of a salesperson."
                         toolsAndTechnologies =" Tools & Technologies -ReactJS, Javascript and other internal technologies"
                     />
                     <br/>
@@ -44,7 +44,7 @@ class Experience extends React.Component {
                         timeperiod = "May 2018 - Jul 2018"
                         organisation ="Sardar Patel Technology & Business Incubator(SPTBI)"
                         location="Mumbai, Maharashtra"
-                        description = "Developed 2 hybrid mobile applications.One application was for the job seekerswhere they can apply for job openings in the hotel induustry. The other app was for the hotels to post job openings."
+                        description = "Developed 2 hybrid mobile applications. One application was for the job seekers where they can apply for job openings in the hotel industry. The other app was for the hotels to post job openings."
                         toolsAndTechnologies =" Tools & Technologies -Ionic, NodeJS, MYSQL"
                     />
                 </div>

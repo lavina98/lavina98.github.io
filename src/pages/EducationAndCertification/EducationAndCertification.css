@@ -46,6 +46,10 @@
 
 .cert_card_container {
     display: flex;
+    max-width: 100%;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
 }
 
 @media  (max-width:600px) {
@@ -60,4 +64,13 @@
 .edu_cards {
     display: flex;
     max-width: 100%;
+    justify-content: center;
+}
+
+.edu h2 {
+    text-align: center;
+}
+
+.certification h2 {
+    text-align: center;
 }
